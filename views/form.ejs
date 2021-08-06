@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous";>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+
+<div class="container d-flex">
+    <a href="/" class="btn btn-link"> Back </a>
+    <form method="POST" action="/new">
+        <div class="form-group">
+            <div class=" mt-2">
+                <input name="author" class="form-control"/>
+            </div>
+            <div  class=" mt-2">
+                <textarea class="form-control" name="messageText" rows="3"></textarea>
+                
+            </div>
+            <div  class=" mt-2">
+                <button type="submit" class="btn btn-secondary justify-content-end">Submit</button>
+            </div>
+        </div>
+    
+ </form>
+</div>
+</body>
